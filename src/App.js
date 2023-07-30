@@ -5,7 +5,7 @@ function App() {
   const [inputValue, setInputValue] = useState("");
   const [editIndex, setEditIndex] = useState(-1);
   const [dueDate, setDueDate] = useState("");
-  const [priority, setPriority] = useState("high");
+  const [priority, setPriority] = useState("medium");
   useEffect(() => {
     console.log("Total Todos:", todos.length);
     console.log(...todos);
